@@ -1,9 +1,3 @@
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
 In the project directory, you can run:
 
 ### `yarn start`
@@ -39,8 +33,34 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
+## TODO APP
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+The goal of this project is to implement basic methods and functionalities
+to create simple frontend todo application.
+for The backend I'll be using NestJS so project  goes Full TypeScript and for the database I'll be using MysQl.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Tech stack
+* React
+* TypeScript
+* Tailwind
+* ts-doc
+* Axios
+* NestJS
+* Mysql
+
+### Starting NestJS
+
+# npm run start:dev
+
+### Build NestJS
+
+# npm run build
+
+
+### Note
+
+Please feel free for using my code or to create an issue or PR if you:
+
+have noticed a bug
+have better UI/UX
+refactor components.
