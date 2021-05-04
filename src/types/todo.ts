@@ -1,7 +1,5 @@
 import { ChangeEvent, FormEvent } from "react"
 
-
-
 /**
  * @Todo { type }
  * type of one todo item
@@ -23,7 +21,6 @@ export type TodoProps = {
   handleCheckTodo: (id: string) => void
   handleDeleteTodo: (id: string) => void
 }
-
 
 /**
  * @AddTodoProps { type }

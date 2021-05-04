@@ -1,4 +1,4 @@
-import { ReactComponent as PlusIcon } from "../assests/plus.svg";
+import { ReactComponent as PlusIcon } from "../assets/plus.svg";
 import { AddTodoProps } from "../types/todo";
 
 export const AddTodo = ({
@@ -16,7 +16,7 @@ export const AddTodo = ({
       placeholder='  Add a todo...'
     />
     <button type='submit' aria-label='Add todo'>
-      <PlusIcon />
+      <PlusIcon style={{ width: "35px" }} />
     </button>
   </form>
 );

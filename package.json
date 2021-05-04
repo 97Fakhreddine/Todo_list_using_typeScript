@@ -23,9 +23,10 @@
     "web-vitals": "^1.0.1"
   },
   "scripts": {
-    "start": "craco start",
+    "start": "craco start && npm run tailwind:css",
     "build": "craco build",
     "test": "craco test",
+    "tailwind:css": "tailwind build src/tailwind.css -c",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
